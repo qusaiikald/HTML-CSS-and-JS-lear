@@ -1,0 +1,45 @@
+/* .shap1 {
+    width: 50px;
+    display: inline-block;
+    padding: 5px;
+    border: red solid 5px;
+    margin: 10px;
+    outline: 5px black solid;
+}
+
+.shap2 {
+    width: 50px;
+    display: inline-block;
+    border-width: 5px;
+    border-color: blue green;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+    outline: black 5px solid;
+}
+
+.shap3 {
+    width: 50px;
+    display: inline-block;
+    padding: 5px;
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    margin: 10px;
+    outline: black 5px solid;
+} */
+
+.first {
+    border-left: solid red;
+    margin: 5px;
+    padding: 5px;
+    font-style: oblique;
+
+}
+
+.second {
+    border-left: green solid;
+    visibility: hidden;
+    margin: 5px;
+    padding: 5px;
+}

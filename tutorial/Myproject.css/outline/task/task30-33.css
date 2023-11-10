@@ -1,0 +1,115 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.green {
+    background-color: rgb(30, 136, 80);
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+
+}
+
+.red {
+    background-color: rgb(208, 68, 68);
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}
+
+.blue {
+    background-color: rgb(64, 64, 236);
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.black {
+    background: black;
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+    left: 0px;
+} */
+div {
+    width: 400px;
+    background-color: rgb(201, 199, 199);
+    text-align: center;
+    border: 2px solid red;
+    padding: 5px;
+    position: absolute;
+    border-left-color: rgb(100, 100, 254);
+    border-right-color: rgb(100, 100, 254);
+    color: white;
+
+}
+
+span {
+    background-color: rgb(100, 100, 254);
+    width: 15px;
+    color: white;
+}
+
+div .top-left {
+    position: fixed;
+    top: 1px;
+    padding: 2px;
+    border-right: 2px red solid;
+    left: 1px;
+}
+
+div .top-right {
+    position: fixed;
+    top: 1px;
+    padding: 2px;
+    border-left: 2px red solid;
+    left: 410px;
+}
+
+div .bottom-left {
+    position: fixed;
+    top: 80px;
+    padding: 2px;
+    border-right: 2px red solid;
+    left: 1px;
+}
+
+div .bottom-right {
+    position: fixed;
+    top: 80px;
+    padding: 2px;
+    border-left: 2px red solid;
+    left: 410px;
+}
+
+.parent li {
+    list-style: none;
+}
+
+li {
+    background-color: rgb(218, 216, 216);
+    margin: 15px;
+    padding: 5px;
+}
+
+ol li {
+    background-color: white;
+}
+
+
+
+.JS li {
+    background-color: white;
+    list-style: circle;
+}
+
+.html li {
+    list-style: decimal;
+
+}
+
+.css li {
+    list-style: lower-roman;
+}

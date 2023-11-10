@@ -1,0 +1,21 @@
+/* 
+transform 2d
+scaleX الفرق بينه وبين الويدث انه كل اشي بنشد اما الويدث بس اباك غراةند 
+scaleYلو اعطيته قيمه سالبه بعمل فليب وبقلب العنصر 
+scale
+
+rotate
+    deg=>درجه اللفه
+
+translate=> تحريك   
+skew=>انححراف للعنصر
+matrix=>matrix(scaleX,skewY,skewx,scaleY,translateX,tranxlateY)
+
+transform-origin:
+defoult =>50% 50% 0
+            x   y exses
+
+           transform:rotatX,y; بكون d3 transition
+        
+           
+*/

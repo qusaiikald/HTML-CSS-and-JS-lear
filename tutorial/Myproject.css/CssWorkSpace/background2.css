@@ -1,0 +1,71 @@
+/* groubing 
+when you need to edeit groud of things */
+.one {
+    /* padding: 10px; */
+    border-bottom: red solid 2px;
+    color: red;
+    /* margin: 10px 0;
+    background-color: #EEE; */
+}
+
+.two {
+    /* padding: 10px; */
+    border-bottom: BLACK solid 2px;
+    color: black;
+    /* margin: 10px 0;
+    background-color: #EEE; */
+}
+
+.three {
+    /* padding: 10px; */
+    border-bottom: green solid 2px;
+    color: green;
+    /* margin: 10px 0;
+    background-color: #EEE;
+ */
+}
+
+.four {
+    /* padding: 10px; */
+    border-bottom: blueviolet solid 2px;
+    color: blueviolet;
+    /* margin: 10px 0; */
+
+}
+
+/* groubing */
+.one,
+.three,
+.four,
+.two {
+    padding: 30px;
+    margin: 15px 0px;
+    background-color: #EEE;
+}
+
+/*---------------------- NESTING-------------------- */
+/* يعني البراغراف الي جوا الديف */
+div p {
+    color: red;
+}
+
+div .pra {
+    color: blue;
+}
+
+div {
+    background-color: red;
+    padding: 10px;
+    /* او بتعملها fit-content */
+    display: inline-block;
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 40px;
+    max-height: 60;
+    /* لز كتب اكثر من الهايت بعمل over-flow */
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+
+}

@@ -1,0 +1,120 @@
+/* .div {
+    background-color: rgb(220, 220, 220);
+    color: orangered;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -5px 0px 0px 0px rgb(48, 123, 235), 5px 0px 0px 0px orangered;
+    font-weight: bolder;
+}
+
+.parent {
+    background-color: rgb(220, 220, 220);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    align-content: space-between;
+
+
+}
+
+.parent div {
+    background-color: red;
+    color: white;
+    margin-right: 3px;
+    width: calc(591px/3);
+    text-align: center;
+} */
+
+:root {
+    --mainColor: rgb(204, 203, 203);
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.header .logo {
+
+    width: 35px;
+
+    background-color: var(--mainColor);
+    padding: 15px;
+    height: 20px;
+    margin: 20px 0px 20px 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 20px 20px 0px;
+    width: 1202px;
+    padding: 15px;
+    background-color: var(--mainColor);
+    /* width: 500px; */
+}
+
+.links li {
+    list-style: none;
+    padding: 15px;
+    height: 20px;
+    /* width: 12px; */
+    background-color: var(--mainColor);
+
+}
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 224, 224);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+}
+
+.content {
+    background-color: var(--mainColor);
+    width: 55%;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: var(--mainColor);
+    width: 40%;
+    padding: 10px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: var(--mainColor);
+    margin: 20px;
+    padding: 10px;
+
+}

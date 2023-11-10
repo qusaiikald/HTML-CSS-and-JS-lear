@@ -1,0 +1,22 @@
+/* div:nth-last-of-type(1),
+div:nth-of-type(1) {
+   color: red;
+} */
+
+/* .parent>:nth-child(2) {
+    color: red;
+} */
+/* 
+.baby:only-child {
+    color: red;
+} */
+/* [title]:not(.no-need):not(.parent div) {
+    color: red;
+} */
+/* div:first-of-type :nth-last-child(2) {
+    color: red;
+} */
+div:not(:nth-child(1), :nth-last-child(1)),
+p {
+    color: red;
+}

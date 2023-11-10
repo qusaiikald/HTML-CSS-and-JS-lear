@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label> username</label>
+            <input type="text" required placeholder="User Name">
+        </div>
+        <br>
+        <div>
+            <label>passworde</label>
+            <input type="password" required placeholder="Use Sympols and Number"><!-- rdquired يعني الحقل مطلوب-->
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" required placeholder="Enter your email" value="الايمال القديم " name="email">
+        </div>
+        <input type="submit" value="save" name="sub"><!--هاض نوع من انواع الادخال الي برسل البيانات -->
+    </form>
+    <!-- conected with back-end -->
+    <form method="get" novalidate target="_blank"><!-- طبهاض المكان الي رح بتعتله كل البيانات الي بالفورم-->
+        <input type="hidden" value="qusai"><!--مخفي-->
+        <input type="reset"><!--بفضي الفورم-->
+        <input type="color" name="Color">
+        <label>range</label>
+        <input type="range" name="Range" min="0" max="100
+        " step="20" value="0">
+        <br>
+        <label>Number</label>
+        <input type="number" min="0" max=20 step="10" value="0">
+        <input readonly="qusai kald"> <!--انت بتكتبه بس المستخدم ما بقدر يغييره-->
+        <input disabled="qusaikald"><!--نفس الي فوق بس ما بنبعت-->
+        <input autofocus><!--ببدا الصفحه من -->
+        <input minlength="8" maxlenght="10"><!--معك تكتب احرف من 8 ل10-->
+        <dv>
+            <br>
+            <input type="radio" name='os' value="Windows"
+                id="win"><!--بتختار واحد عشان يكونوا مع بعض لازم يكون الهم نفس الاسم-->
+            <label for="win">Windows</label>
+        </dv>
+        <br>
+        <div>
+            <input type="radio" name="os" id="lin">
+            <label for="lin">linux</label>
+        </div>
+        <div>
+            <label for="1st">Choose Book</label>
+            <select name="book" id=1st" multiple>
+                <optgroup label="section one">
+                    <option value="1">book 1</option>
+                    <!--لنفرض انك اخترت بوك 1 القيمه الي رح تروح للباكاند هي الي فاليو -->
+                    <option value="2" selected> book 2</option>
+                    <option value="3"> book 3</option>
+                </optgroup>
+
+                <optgroup label="section two">
+                    <option value="1"> book1</option>
+                    <option value="2"> book2</option>
+                    <option value="3"> book3</option>
+                </optgroup>
+
+            </select>
+        </div>
+        <textarea name="text" id="text" cols="1" rows="1"></textarea>
+
+    </form>
+
+    <form>
+        <div>
+            <label>Uploud</label>
+            <input type="file">
+        </div>
+        <input type="search">
+        <input type="url">
+        <input type="date">
+        <input type="">
+        <input list="programming" name="prog"><!--نفس السلكت بس الي بميزه انو فيها بحث-->
+        <datalist id="programming">
+            <option value="Python">
+            <option value="c++">
+            <option value="c#">
+            <option value="java">
+        </datalist>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+body {
+    counter-reset: counter;
+}
+
+.elemnt1,
+.elemnt2,
+.elemnt3 {
+    background-color: rgb(216, 218, 219);
+    display: inline-block;
+    width: 125px;
+    height: 100px;
+    padding: 35px;
+    position: relative;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: -10px -5px 0px 0px rgb(249, 104, 104), 10px 5px 0px 0px rgb(106, 106, 253);
+}
+
+.elemnt1::before {
+    counter-increment: counter;
+    content: counter(counter);
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    color: white;
+    width: 20px;
+    top: -10px;
+    left: 52px;
+    border-radius: 50%;
+}
+
+.elemnt2::before {
+    counter-increment: counter;
+    content: counter(counter);
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    color: white;
+    width: 20px;
+    top: -10px;
+    left: 52px;
+    border-radius: 50%;
+}
+
+.elemnt3::before {
+    counter-increment: counter;
+    content: counter(counter);
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    color: white;
+    width: 20px;
+    top: -10px;
+    left: 52px;
+    border-radius: 50%;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Free1,
+.D1 {
+    background-color: rgb(222, 223, 224);
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 90px;
+    position: relative;
+    margin-right: 20px;
+    border-radius: 20px;
+
+}
+
+.Free2,
+.D2 {
+    background-color: rgb(189, 191, 193);
+    width: 100px;
+    height: 100px;
+    padding: 45px;
+    position: relative;
+    font-size: 55px;
+    top: -50px;
+    text-align: center;
+    border-radius: 50%;
+    left: -55px;
+}
+
+.Free1::before {
+    content: "Basic";
+    color: white;
+    font-size: 20px;
+    background-color: rgb(38, 170, 246);
+    width: 175px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    top: -70px;
+    display: inline-block;
+    left: -55px;
+    border-radius: 10px;
+}
+
+.D1::before {
+    content: "Pro";
+    color: white;
+    font-size: 20px;
+    background-color: rgb(38, 170, 246);
+    width: 175px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    top: -70px;
+    display: inline-block;
+    left: -55px;
+    border-radius: 10px;
+}
+
+.Free1::after {
+    content: "";
+    width: 2px;
+    position: absolute;
+    left: 261px;
+    height: inherit;
+    top: 0px;
+    background-color: rgb(38, 170, 246);
+    z-index: 5;
+    display: inline-block;
+}
+
+.D1::after {
+    content: "or";
+    position: absolute;
+    width: fit-content;
+    background-color: rgb(38, 170, 246);
+    padding: 3px;
+    border-radius: 50%;
+    left: -22px;
+    z-index: 6;
+    top: 150px
+}

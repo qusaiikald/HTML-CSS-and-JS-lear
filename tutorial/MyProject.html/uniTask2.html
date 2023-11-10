@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .form {
+            background-color: rgb(220, 220, 220);
+            width: auto;
+            border: 2px solid black;
+            padding-left: 12px;
+        }
+
+        .form h1 {
+            color: blue
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form">
+        <h1>Please Fill your information</h1>
+        <form border="2">
+            <label>Name</label>
+            <input type="text" placeholder="first name and last name" required max="20">
+            <br><br>
+            <label>Age</label>
+            <input type="number" min="18" max="23">
+            <br>
+            <div>
+                Gender:
+                <input type="radio" id="male" value="Male" name="gender">
+                <lable for="male">Male</lable>
+                <input type="radio" id="female" value="Female" name="gender">
+                <label for="Female">Female</label>
+            </div>
+
+            <label for="height">Height :</label>
+            <input type="range" id="height" min="145" max="190" value="145">
+            <br><br>
+            <label for="weight">Weight</label>
+            <input disabled type="number">
+            <br><br>
+            <label for="appointment"> Appointment</label>
+            <input type="date" id="appointment" autofocus>
+            <br><br>
+            <label foe="phone"> phone number:</label>
+            <input type="tel" id="phone" value="009627">
+            <br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Re-set">
+
+        </form>
+    </div>
+</body>
+
+</html>

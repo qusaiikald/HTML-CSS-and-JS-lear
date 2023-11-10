@@ -1,0 +1,63 @@
+div {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+:empty {
+    background-color: red;
+}
+
+.two {
+    background-color: rgb(200, 198, 198);
+    position: relative;
+}
+
+.two::before {
+    counter-reset: section 1;
+    content: counter(section);
+    background-color: rgb(255, 127, 127);
+    position: absolute;
+    padding: 5px;
+    left: -9px;
+    bottom: 5px;
+}
+
+p {
+    background-color: rgb(209, 206, 206);
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    border-left: rgb(251, 72, 72) solid 5px;
+    left: 100px
+}
+
+p::before {
+
+    content: "";
+    /* padding: 5px; */
+    color: white;
+    /* background-color: rgb(233, 90, 90); */
+    margin: 10px;
+    position: absolute;
+    left: -32px;
+    bottom: 1px;
+    border: solid 10px;
+    border-color: transparent rgb(248, 89, 89) transparent transparent;
+}
+
+p::before {
+    content: attr(data-person);
+    background-color: rgb(209, 206, 206);
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    margin: 10px;
+    border-spacing: white;
+
+
+
+
+}

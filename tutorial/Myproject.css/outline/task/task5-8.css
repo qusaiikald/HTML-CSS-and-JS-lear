@@ -1,0 +1,23 @@
+div {
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shape1 {
+
+    background-color: #8A2BE2;
+    background-color: rgb(141, 30, 189);
+    background-color: (258, 98%, 34%);
+}
+
+.shape2 {
+
+    background-color: #ad72e3;
+}
+
+.shape3 {
+
+    background-color: #d7bfee;
+}

@@ -1,0 +1,71 @@
+.onee {
+    color: black;
+    text-shadow: 1px 1px 0px red, 2px 2px 0px blue, 3px 3px 0px blueviolet;
+    font-size: large;
+    width: 800px;
+}
+
+.one,
+.two,
+.three {
+    text-align: center;
+    text-decoration-color: rebeccapurple;
+    line-height: 90%;
+}
+
+.one {
+    text-transform: uppercase;
+
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+
+
+
+.first {
+    width: 400px;
+    background-color: #EEE;
+}
+
+.secund {
+    width: 400px;
+    height: 50px;
+    background-color: #EEE;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    padding: 10px;
+}
+
+.thared {
+    margin: 15px;
+    width: 400px;
+    background-color: #EEE;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+.bo .t {
+    background-color: rgb(29, 212, 172);
+    /* width: fit-content; */
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    border-bottom: 10px solid #057a49;
+    font-style: oblique;
+    font-size: 60px;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}

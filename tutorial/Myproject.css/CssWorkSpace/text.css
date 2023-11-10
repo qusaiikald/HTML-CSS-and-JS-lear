@@ -1,0 +1,70 @@
+/* 
+text-shadow => shadow for the text
+h-sh افقي v-sh العامودي  blur  color
+
+
+*/
+.div {
+    background-color: #EEE;
+    color: rgb(161, 161, 228);
+    text-shadow: 0 0 0 red;
+    text-align: center;
+    /* بغير مكان النص يعني هسه هو بالنص */
+    direction: ltr;
+    /*  اتجاه الكتابه مثلا من اليسار لليمين حسب اللغه */
+    vertical-align: top;
+    text-decoration: line-through;
+    /* هاي للنعديل على النص زي الكابتل وما اللى ذلك وحاول انت الهتمل خلي كل كتابات سكول عشان بالسسس نعدل عليهمخ  */
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-indent: 10px;
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 300px;
+    white-space: nowrap;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inhe {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(251, 251, 251);
+    font-size: 20px;
+    border: 2px rgba(255, 204, 0, 0.476) solid;
+    /* box-sizing: border-box; */
+    /* box-sizing: content-box; the defoult type and it mean that the border and the margin dont include with the width */
+}
+
+.inhe p {
+    border: 2px solid;
+    /* يعني اورث اللون من الاب  */
+    border-color: inherit;
+    padding: inherit;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+/* لما ييجي عليها الماوس بتصير حمره  */
+p:hover {
+    color: red;
+}
+
+
+/* بفيدك لما تسوياول المشروع فبتحط انهم لورثوا من الاب عأساس لما تغير اشي بالاب بتغير كل اشي مربوط معو */
+
+/* 
+em=>time يعني مره من الاب الي بورثه 
+rem=> root time (HTML)
+percentage=> percantege from the inharited part 
+vw=> view part width المساحه البيضه الي بميزه انه بوخد مثلا 30 بالميه من المساحه البيضه وبصير كل ما تكبر الصفحه او تصغر بضل يوخد نفس النسبه
+
+*/
+div {
+    /* font-size: 10px;
+    font-weight: bold; */
+    font-family: 'Delicious Handrawn', cursive;
+}

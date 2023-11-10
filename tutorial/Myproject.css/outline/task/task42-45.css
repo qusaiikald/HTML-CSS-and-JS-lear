@@ -1,0 +1,33 @@
+/* .parent {
+    background-color: rgb(238, 237, 237);
+    width: 400px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    transition: margin-top 1s 0s;
+
+}
+
+.child {
+    background-color: rgb(191, 191, 191);
+    width: auto;
+    padding: 10px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    transition: all 1s .5s linear;
+
+
+}
+
+
+.child:hover {
+    margin-top: 30px;
+
+}
+
+.parent:hover {
+    margin-top: 50px;
+} */

@@ -1,0 +1,102 @@
+/* target all paragraph */
+p {
+
+    color: black;
+    font: bold;
+    font-size: small;
+}
+
+/* target class */
+.qusai {
+    color: green;
+    font-style: italic;
+}
+
+/* target id */
+#qusai {
+    color: brown;
+}
+
+#test {
+    color: green
+}
+
+#test {
+    background-color: brown;
+    background-color: rgb(0, 0, 200);
+    background-color: #00ff00;
+    /*color heks code  */
+    background-image: url("../csslearning/img/images.png");
+    background-repeat: repeat;
+    /* بعمل ريبيت للي قبل وبعمل الصفحه زيه*/
+    /* هون الباك غراوند بنمزل مع السكرول  */
+    background-attachment: scroll;
+    /* هون الباكغراوند بتضل ثابته */
+    background-attachment: fixed;
+    background-position: left top;
+    /* بتكون بنص */
+    background-position: center top;
+    /*                   فوق,شمال   */
+    background-position: 20px 0px;
+    background-size: cover;
+    /* لو شو ما صار رح تضل الصوره باينه رح تصير تصغر وتكبر مع الزوم */
+    background-size: contain;
+    /*   البادنغ هو الهوامش الداخلي للعنصر*/
+    /* top right bottom left */
+    /* 10 10 10 10 */
+    padding: 10px;
+    /* top=10 right=20 بعد هيك رح يوخد كل وحده والي بوجها يعني اليمين الي بوجها شمال رح يوخدو نفس الاشي */
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    /* المارج الهامش الخارجي للعنصر نفس التعامل بالقياس*/
+    margin: 0%;
+    /* بزبط بالسالب عكس البادنغ */
+    margin: -10px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+
+    /*-----------------border----------------- */
+    div {
+        border-width: 2px;
+        /* بالسايز نفس الي بادينج  */
+        /* كل جهه الها لون  */
+        border-color: red green yellow black;
+        border-style: solid;
+        border: 10px red solid;
+
+    }
+
+    /* الاوت لاين بعمل برا العنصر تبعك يعني زي اضافه */
+    .outline {
+        outline: 10px blue solid;
+    }
+
+
+    /* 
+-----------------------------display------------------------
+ 1.block div
+     -take full if no width
+     -Add line break
+     -respect badding margin....
+  2.inline span
+     -dont respacte width and height ما بتأثر بتغييرهم 
+     -dont add line brack 
+     -respect padding and margin frim right and left
+     لازم تحول الاشي ل انلان بلوك 
+  3.inline-block
+     -respect padding and margin
+     -adding breaks deppaned on the size of the elemante
+*/
+    .D {
+        background-color: rgb(78, 5, 5);
+        padding: 10px;
+        margin: 10px;
+        display: inline-block;
+        /* بختفي العنصر */
+        display: none;
+        /* بتخفي العنصر بس بضل مكانه بالصفحه */
+        visibility: hidden;
+
+    }

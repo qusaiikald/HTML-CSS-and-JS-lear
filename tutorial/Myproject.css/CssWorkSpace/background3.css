@@ -1,0 +1,65 @@
+/* 
+البوزيشن انك بتوخد العنصر وبتحطه مكان معين بالصفحه لحاله 
+ */
+.one {
+    background-color: green;
+    font-size: 30px;
+    width: 100px;
+    /* 
+    هي بنحرك بناءا على نفسه 
+    position: relative;
+    bottom: 30px;
+    top:20px;
+    left:10px;
+     */
+
+    /* هون بكون بناءا على الصفحه 
+    position: absolute; 
+    bottom:0px;
+    عشان تحرك عنصر جوى الاب لازم يكون الاب ريلاتف
+    */
+
+    /* 
+    position:fixed;
+    بغض النضر عن البيرنت رح تضل تتبع للصفخه ويقيس بالنسبه الها 
+    ولما تعمل سكرول بضل ثابت 
+    */
+    z-index: 3;
+    /*  يعني اعلى منهم كلهم */
+
+
+
+
+
+
+}
+
+.two {
+    background-color: red;
+    width: 100px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: inside disc;
+    list-style: none;
+    padding-left: 0%;
+    margin: 0px;
+
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+
+}
+
+table td {
+    padding: 10px;
+    /* بدل ما تعمل بوردر بتعملزي فراغات بينهم */
+    border-spacing: 12;
+}
+
+table thead td {
+    background-color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="unitask.js">
+    var row = parseInt(prompt("enter the the  row "));
+    var col = parseInt(prompt("enter the columns"))
+    var sum = 0;
+    var max = 0;
+    document.write("<table border=\'2\'>");
+    for (var i = 1; i <= row; i++) {
+      document.write("<tr>");
+      for (var k = 1; k <= col; k++) {
+        var a = prompt("enter the value of the cell");
+        a = parseInt(a);
+        if (a > max)
+          max = a;
+
+        sum += a
+        document.write("<td colspan=\"3\">" + a + "</td>");
+
+      }
+      document.write("</tr>")
+
+    }
+    document.write("</table>")
+    document.writeln("the sum is :" + sum + "<br>")
+    document.writeln("the max num is :" + max)
+
+
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

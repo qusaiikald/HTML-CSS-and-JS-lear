@@ -1,0 +1,44 @@
+.first {
+    width: 400px;
+    text-align: center;
+    border: 2px orange solid;
+    padding: 20px;
+}
+
+.first p {
+    background-color: rgb(207, 203, 200);
+    border: inherit;
+    padding: inherit;
+}
+
+.fontone {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.fonttwo {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+.fontthree {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 800;
+}
+
+body {
+    font-size: 20px;
+}
+
+.a {
+    font-size: 2.5em;
+}
+
+.b {
+    font-size: 2em;
+}
+
+.c {
+    font-size: inherit;
+    text-align: center;
+}

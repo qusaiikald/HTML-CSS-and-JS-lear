@@ -1,0 +1,91 @@
+/* 
+    float 
+    clear
+*/
+body {
+    margin: 0;
+}
+
+div {
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: calc(94%/5);
+    margin-left: 1%;
+    /* شفافية كل العنصر */
+    opacity: 0.5;
+}
+
+
+/* 
+conttent Width is 100% 
+6 Spaces 1% => 6% from content width  
+94%  available space 
+5 elements 
+the width is : 94%/5 => 18.8%
+*/
+
+/*
+
+الفسندورز بري فيكس لما يكون في عنصر جديد ولسا البراوزرز بدهم يرجربيه بعطوك بريفكس كأستعمال 
+-webkit- => Chrome, Safari ,New Opera 
+moz => mozela
+ms =>mecrosoft
+*/
+
+.class {
+    /* الراديوس عن مصف القطر وبتتحكم بحواف العنصر يعني ممكن تسويه دائري */
+    border-radius: 50%;
+    /* box-sizing:border-box:بضلهم من العنصر  */
+    transition-duration: 2s;
+    /* يعني رح يستنى ثانيه بعدين يسوي التران */
+    transition-delay: 1s;
+    /* transition-property: all; */
+    transition-property: margin-left, border, margin-right;
+    transition: margin-left 2s;
+
+    /*  هون ثانيه عبين ما يتطبق وثانيتين تأخير */
+    transition: all 1s 2s ease;
+
+
+    /* 
+    only vertical margin could has collapse
+    bigger margin always win
+    */
+    /* 
+    gradiants 
+    linear-gradient(Angle,color stop1,color stop2,...)
+
+    */
+    background-image: linear-gradient(to right, red, green);
+
+
+}
+
+img {
+    transition: 0.3s;
+    filter: grayscale(100%);
+
+}
+
+
+:root {
+    --mainColor: green;
+    /* 
+    var(اسم , لو اللون مش موجود رح ارجع لهاي)
+    */
+
+}
+
+div:hover {
+    margin-left: 10px;
+    margin-right: 10px !important;
+    border: 1px solid;
+}
+
+/*
+!important بتعطيها للبروبالتي عشنا تكون اقوى اشي  
+*/
